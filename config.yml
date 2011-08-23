@@ -1,7 +1,9 @@
 server: admin.example.com
 port: 389
+ssl: true
 starttls: true
 basedn: ou=people,dc=example,dc=com
+groupdn: ou=Groups,dc=example,dc=com
 rdn: uid
 uidnumber_filter: '(uidNumber=*)'
 gidnumber_default: 301
